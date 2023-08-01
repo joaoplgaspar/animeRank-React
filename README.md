@@ -13,7 +13,7 @@ Site para descobrir animes ou rankear seus animes preferidos. Sendo desenvolvido
 <hr>
 
 <div align=center>
-  <img  src="https://github.com/joaoplgaspar/animeRank-React/assets/130015259/0a9b33af-bebc-45cd-bd47-c6ae27542bfa#vitrinedev" alt="AnimeRank GIF"/>
+  <img src="https://github.com/joaoplgaspar/animeRank-React/assets/130015259/0a9b33af-bebc-45cd-bd47-c6ae27542bfa#vitrinedev" alt="AnimeRank GIF"/>
 </div>
 
 <hr>
