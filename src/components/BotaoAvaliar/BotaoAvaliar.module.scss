@@ -1,0 +1,41 @@
+@import 'styles/variaveis';
+
+.btnAvaliar button, .btnAvaliar__small button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+    background-color: $roxo-muito-escuro;
+    color: $cor-do-texto;
+    border: 2px solid #fff;
+
+    border-radius: 15px;
+    padding: 8px 15px;
+
+    font-family: $font-padrao;
+    font-size: 2.4rem;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btnAvaliar {
+    .icon {
+        font-size: 2.8rem;
+    }
+}
+
+
+.btnAvaliar__small {
+    button {
+        font-size: 2.4rem;
+        padding: 8px;
+        border-radius: 50%;
+    }
+}
+
+.btnAvaliar button:hover, .btnAvaliar__small button:hover {
+    background-color: $cor-do-texto;
+    color: $roxo-muito-escuro;
+    border: 2px solid $roxo-muito-escuro;
+}

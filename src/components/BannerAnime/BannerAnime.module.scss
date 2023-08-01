@@ -1,0 +1,82 @@
+@import '../../styles/variaveis';
+
+.banner__container {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    .banner__content {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        padding-left: 8rem;
+        width: 50vw;
+        color: $cor-do-texto;
+
+        .info {
+            margin-bottom: 10px;
+
+            h2 {
+                font-size: 4.2rem;
+                font-family: $font-padrao;
+                text-shadow: 4px 4px 0px #000;
+                margin: 0;
+            }
+    
+            p {
+                font-family: $font-secundaria;
+                font-size: 1.8rem;
+                text-shadow: 4px 4px 4px #000;
+            }
+        }
+
+        .btn__container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+    }
+
+    img {
+        width: 100vw;
+        height: 60vh;
+    }
+}
+
+.banner__container:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    opacity: 0.5;
+    background: #000;
+}
+
+@media (min-width: 1440px) {
+    .banner__container {
+        .banner__content {
+            margin-top: 5rem;
+        }
+
+        img {
+            height: 80vh;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .banner__container {
+
+        .banner__content {
+            margin-top: 1rem;
+        }
+
+        img {
+            height: 90vh;
+        }
+    }
+}
