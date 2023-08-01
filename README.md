@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+<h1> <img src="https://github.com/joaoplgaspar/animeRank-React/assets/130015259/6865cca8-8a45-4207-80d4-2547d38e9fa9"/> AnimeRank - ReactJS </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Static Badge](https://img.shields.io/badge/Status-_Em%20Desenvolvimento-yellow?style=for-the-badge)
 
-## Available Scripts
+Organograma do jogo League Of Legends para rankear e/ou montar composições com seus campeões preferidos do jogo.
 
-In the project directory, you can run:
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Organo LoL**
+| :label: Tecnologias | react, html5, css3, javascript
+| :rocket: URL         | https://animerank-react.vercel.app
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align=center>
+  <img  src="https://github.com/joaoplgaspar/animeRank-React/assets/130015259/0a9b33af-bebc-45cd-bd47-c6ae27542bfa#vitrinedev" alt="AnimeRank GIF"/>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<hr>
 
-### `npm test`
+## Resumo do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O AnimeRank é um projeto que tem como propósito descobrir e rankear animes pelos usuário, que são salvos localmente no seu computador e dessa maneira poder compartilhar ao mundo seu próprio rank ou manter para si mesmo como forma de recordação de seu histórico. O projeto foi iniciado em apenas HTML, SCSS e Javascript, mas com a proporção do projeto decidi utilizar o react como forma de estudo e aprendizado para a linguagem, priorizando a reutilização de componentes e estilos, novas funcionalidades e entre outros. Utilização como Single Page Application (SPA) com React router dom, contextos, localStorage e manipulação de API
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Imagem AnimeRank](https://github.com/joaoplgaspar/animeRank-React/assets/130015259/9f077a68-3c24-44df-abb7-2f8abb64e332)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# :hammer: Funcionalidades do projeto
 
-### `npm run eject`
+- `Funcionalidade 1`: Ver informações do anime, como descrição, titulo e popularidade pelo card
+- `Funcionalidade 2`: Adicionar e remover animes da sua lista de animes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ![AnimeRank Funcionalidades GIF](https://github.com/joaoplgaspar/animeRank-React/assets/130015259/be71b3bb-b444-463f-adb5-dec4c10f4ae7)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ✔️ Técnicas e tecnologias utilizadas
+- ``ReactJS, Html5, Sass``
+- ``Manipulação do estado do objeto com useState``
+- ``Single Page Application (SPA) com React Router Dom``
+- ``Contextos com useContext``
+- ``localStorage``
+- ``Manipulação de entrega e recebimento de dados de uma API``
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 🛠️ Abrir e rodar o projeto
 
-## Learn More
+**Utilize `npm install` dentro da pasta do projeto para baixar suas pendências**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**A seguir `npm start` para iniciar o projeto**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## API por ANILIST
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://github.com/joaoplgaspar/animeRank-JS/assets/130015259/d57fc581-4c8c-4155-9a02-1689ebcf94ba" width=200 />
