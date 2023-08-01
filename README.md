@@ -2,11 +2,11 @@
 
 ![Static Badge](https://img.shields.io/badge/Status-_Em%20Desenvolvimento-yellow?style=for-the-badge)
 
-Organograma do jogo League Of Legends para rankear e/ou montar composições com seus campeões preferidos do jogo.
+Site para descobrir animes ou rankear seus animes preferidos. Sendo desenvolvido com React JS com a API ANILIST.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Organo LoL**
+| :sparkles: Nome        | **AnimeRank REACTJS**
 | :label: Tecnologias | react, html5, css3, javascript
 | :rocket: URL         | https://animerank-react.vercel.app
 
